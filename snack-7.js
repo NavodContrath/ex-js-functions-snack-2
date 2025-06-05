@@ -22,3 +22,4 @@ setTimeout(() => {
     executeAndEnd("I log every", 1000, 5000)
 
 }, 16000)
+//usato un setTimeout per non far accavallare i log in console

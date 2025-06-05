@@ -19,3 +19,4 @@ setTimeout(() => {
     }
     countdown(5)
 }, 22000)
+//usato un setTimeout per non far accavallare i log in console

@@ -7,7 +7,6 @@ Poi, definisci la stessa funzione somma ma come funzione anonima assegnata a una
 Quindi, riscrivi la funzione somma con la sintassi delle arrow functions. */
 
 console.log("first snack")
-
 function sum(numb1, numb2) {
     return numb1 + numb2
 }

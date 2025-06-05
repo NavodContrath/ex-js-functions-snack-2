@@ -13,7 +13,7 @@ setTimeout(() => {
         const interval = setInterval(() => {
             console.log(`sono passati ${counter} secondi`)
             counter++
-            if (counter > 10) {
+            if (counter > 5) {
                 clearInterval(interval)
             }
         }, ms)

@@ -11,7 +11,7 @@ setTimeout(() => {
     function logEverySecond(ms) {
         let counter = 0
         const interval = setInterval(() => {
-            console.log(`sono passati ${counter} secondi`)
+            console.log(` ${counter} seconds are gone`)
             counter++
             if (counter > 5) {
                 clearInterval(interval)

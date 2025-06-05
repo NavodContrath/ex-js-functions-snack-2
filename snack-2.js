@@ -4,8 +4,8 @@ Snack 2
 Crea una arrow function che calcola il quadrato di un numero:
 Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga. */
 
-console.log("secondo snack")
+console.log("second snack")
 
-const quadrato = numb => numb * numb
+const square = numb => numb * numb
 
-console.log(quadrato(5))
+console.log(square(5))

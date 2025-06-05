@@ -6,18 +6,18 @@ Crea una funzione dichiarativa chiamata somma che accetta due numeri e restituis
 Poi, definisci la stessa funzione somma ma come funzione anonima assegnata a una variabile
 Quindi, riscrivi la funzione somma con la sintassi delle arrow functions. */
 
-console.log("primo snack")
+console.log("first snack")
 
-function somma(numb1, numb2) {
+function sum(numb1, numb2) {
     return numb1 + numb2
 }
-console.log(somma(2, 2))
+console.log(sum(2, 2))
 
-const somma2 = function (numb1, numb2) {
+const sum2 = function (numb1, numb2) {
     return numb1 + numb2
 }
-console.log(somma2(3, 3))
+console.log(sum2(3, 3))
 
-const somma3 = (numb1, numb2) => numb1 + numb2
+const sum3 = (numb1, numb2) => numb1 + numb2
 
-console.log(somma3(4, 4))
+console.log(sum3(4, 4))
